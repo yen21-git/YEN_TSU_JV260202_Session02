@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Store</h1>
+    <table border="2" cellpadding="10" cellspacing="5">
+        <tr>
+            <th>Item Photo</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td><img src="/Session02/TSU_JV260202_MD1_Session02_Bai05/img/orange.jpg" alt="orange"  width="200" height="200"</td>
+            <td>Orange</td>
+            <td>$1 ea.</td>
+        </tr>
+        <tr>
+            <td><img src="/Session02/TSU_JV260202_MD1_Session02_Bai05/img/banam.jpg" alt="banana"  width="200" height="200"></td>
+            <td>Banana</td>
+            <td>$0.75/lb</td>
+        </tr>
+        <tr>
+            <td><img src="/Session02/TSU_JV260202_MD1_Session02_Bai05/img/pomegranate.jpg" alt="pomegranate"  width="200" height="200"></td>
+            <td>Pomegranates</td>
+            <td>3 for $5</td>
+            
+        </tr>
+        <tr>
+            <td><img src="/Session02/TSU_JV260202_MD1_Session02_Bai05/img/gummy-bear.jpg" alt="gummy bear"  width="200" height="200"></td>
+            <td>Gummy Bears</td>
+            <td>$6 per bag</td>
+        </tr>
+        <tr>
+            <td><img src="/Session02/TSU_JV260202_MD1_Session02_Bai05/img/Broccoli.jpg" alt="broccoli"  width="200" height="200"></td>
+            <td>Broccoli</td>
+            <td>$3 a head</td>
+    </table>
+
+
+
+    <br><br>
+    <form action="baitap05.html" method="post">
+        <h2>Booking Form</h2>
+        <label for="fname"> Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="enter your telephone "><br><br>
+        <label for="Date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+        <label for="Number of Guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" max="20"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <br><br>
+    <form action="Carpurchase.html" method="post">
+        <h2>Car Purchase Form</h2>
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="Phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="enter your telephone "><br><br>
+        <label for="Choose a Car">Choose a Car:</label>
+        <select name="Choose a Car" id="choose a car">
+         <option value="Model 1">Model </option>
+         <option value="Model 2">Model 2</option>
+         <option value="odel 3">Model 3</option>    
+        </select><br><br>
+        <label for="Choose a Color">Choose a Color:</label>
+        <select name="Choose a Color" id="choose a color">
+         <option value="red">Red</option>
+         <option value="Blue">Blue </option>
+         <option value="green">Green</option> 
+        </select><br><br>
+        <label for="Delivery Date">Delivery Date:</label>
+        <input type="date" id="delivery date" name="delivery date"><br><br>
+        <input type="submit" value="Submit">
+</body>
+</html>
+
